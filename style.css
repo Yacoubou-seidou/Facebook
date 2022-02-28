@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  height: 100px;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: #3a5a97;
+
+  color: #fefefe;
+}
+label {
+  font-weight: bold;
+  color: black;
+}
+
+.description p {
+  color: #9c9c9c;
+}
+
+strong {
+  color: black;
+}
+.infos p {
+  color: #9c9c9c;
+}
+.date-1 p {
+  color: #9c9c9c;
+}
+.sexe {
+  color: #9c9c9c;
+}
+.conect {
+  display: flex;
+  margin-right: 80px;
+}
+.pass {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.pass a {
+  color: #8fa8ce;
+}
+.log {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.petit-b {
+  background-color: #4167b2;
+  color: #fefefe;
+  border: 0 #8fa8ce;
+  height: 20px;
+  cursor: pointer;
+}
+header p {
+  margin-bottom: 5px;
+}
+.pass a {
+  margin-top: 5px;
+}
+.logo h1 {
+  font-size: 50px;
+}
+.logo {
+  margin-left: 80px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #ecf0f5;
+  display: flex;
+  justify-content: space-around;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.file {
+  display: flex;
+  margin-bottom: 50px;
+}
+.share {
+  display: flex;
+}
+.find {
+  display: flex;
+  margin-top: 50px;
+}
+.description h1 {
+  width: 500px;
+  margin-top: 50px;
+}
+.description p {
+  margin-left: 10px;
+}
+.sign-up h1 {
+  margin-bottom: 10px;
+}
+.sign-up p {
+  margin-bottom: 20px;
+}
+.deux {
+  display: flex;
+}
+.deux input {
+  width: 150px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(216, 245, 245, 0.116);
+  box-shadow: 1px 1px 1px gainsboro;
+}
+
+.secur input {
+  width: 320px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(216, 245, 245, 0.116);
+  box-shadow: 1px 1px 1px gainsboro;
+}
+.date-1 p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+select {
+  width: 55px;
+  height: 25px;
+  border: 1px solid rgba(216, 245, 245, 0.116);
+  box-shadow: 1px 1px 1px gainsboro;
+}
+.sexe P {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sexe {
+  margin-bottom: 10px;
+}
+.infos p {
+  font-size: 12px;
+  margin-bottom: 30px;
+  width: 250px;
+}
+button {
+  width: 150px;
+  height: 25px;
+  background-color: #5c9649;
+  color: #fefefe;
+  border: 0 solid #5c9649;
+  box-shadow: 10px 10px 10px 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+hr {
+  color: #e2e5e9;
+  border: 1px solid #e2e5e9;
+}
+.fin {
+  margin-top: 30px;
+}
+.sign-up input {
+  color: #9c9c9c;
+}
+.dim {
+  width: 50px;
+  height: 50px;
+}
+.secur {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1140px) {
+  .description {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .description {
+    margin-left: 0;
+    width: 300px;
+  }
+  .description h1 {
+    width: 200px;
+  }
+  .sign-up {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .logo {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 560px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    justify-content: center;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .conect {
+    margin: 0 auto;
+  }
+  .description h1 {
+    font-size: 20px;
+  }
+  .pass {
+    margin-left: 0;
+  }
+  .conect {
+    flex-wrap: wrap;
+  }
+
+  .deux input {
+    width: 60px;
+  }
+  .secur input {
+    width: 160px;
+  }
+  .find {
+    margin-top: 10px;
+  }
+  .file {
+    margin-bottom: 10px;
+  }
+  .sign-up h1 {
+    font-size: 20px;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+  .sexe {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .infos p {
+    font-size: 10px;
+    width: 150px;
+  }
+  .sign-up input {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-height: 665px) {
+  .fin {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  .file {
+    margin-bottom: 10px;
+  }
+  .find {
+    margin-top: 10px;
+  }
+  button {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .conect {
+    display: flex;
+    flex-direction: column;
+  }
+}
